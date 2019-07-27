@@ -1,7 +1,7 @@
 FROM python
 
 RUN pip3 install flask
-RUN apt-get install update
+RUN apt-get update
 
 COPY helloworld.py /
 EXPOSE 5000
